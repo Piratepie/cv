@@ -15,7 +15,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer and agile advocate",
   summary:
     "Full stack software engineer with a passion for agile and the creative freedom it promotes. I'm a real teamplayer who's always out to improve the way we work and the products we build. Besides my passion for software engineering, I'm also socially engaged and always looking for ways to improve the world around me.",
-  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQG4iOmfDuEq4A/profile-displayphoto-shrink_400_400/0/1676382922560?e=1716422400&v=beta&t=B6RU4eRW1uTtcuLgcVH1DYIm_fhlaA6CPeLLkOSJkGg",
+  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQGl_ET0IfMEcw/profile-displayphoto-shrink_800_800/0/1714058272699?e=1719446400&v=beta&t=LEEn9ol2uwYeZHBp3c32IcI25OF6IW-k7rjsqP2Y1wU",
   personalWebsiteUrl: "https://www.jasperdebie.dev/",
   contact: {
     // email: "",
