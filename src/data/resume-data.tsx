@@ -2,7 +2,8 @@ import {
   InfoSupportLogo,
   ProvincieUtrechtLogo,
   Deck1Logo,
-  EnzoSystemsLogo
+  EnzoSystemsLogo,
+  UtilusLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -11,11 +12,11 @@ export const RESUME_DATA = {
   initials: "J.B.",
   location: "Amsterdam, Netherlands",
   locationLink: "https://www.google.com/maps/place/amsterdam",
-  about:
-    "Full Stack Engineer and agile advocate",
+  about: "Full Stack Engineer and agile advocate",
   summary:
     "Full stack software engineer with a passion for agile and the creative freedom it promotes. I'm a real teamplayer who's always out to improve the way we work and the products we build. Besides my passion for software engineering, I'm also socially engaged and always looking for ways to improve the world around me.",
-  avatarUrl: "https://media.licdn.com/dms/image/D4E03AQGl_ET0IfMEcw/profile-displayphoto-shrink_800_800/0/1714058272699?e=1719446400&v=beta&t=LEEn9ol2uwYeZHBp3c32IcI25OF6IW-k7rjsqP2Y1wU",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D4E03AQGl_ET0IfMEcw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714058272699?e=1729123200&v=beta&t=-xOYHoPr-ZxBbg-YKqxCjN3OG7cy7FLwufp4oH52ssQ",
   personalWebsiteUrl: "https://www.jasperdebie.dev/",
   contact: {
     // email: "",
@@ -39,12 +40,12 @@ export const RESUME_DATA = {
     ],
   },
   education: [
-    // {
-    //   school: "Universiteit van Amsterdam",
-    //   degree: "Master's degree, Software Engineering",
-    //   start: "2024",
-    //   end: "2026",
-    // },
+    {
+      school: "Universiteit van Amsterdam",
+      degree: "Master's degree, Software Engineering",
+      start: "2024",
+      end: "2026",
+    },
     {
       school: "HU University of Applied Sciences Utrecht",
       degree: "Bachelor's degree, HBO-ICT (Software Development)",
@@ -60,13 +61,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Utilus",
+      link: "https://www.utilus.nl/",
+      badges: ["Part-time"],
+      title: "Frontend Developer",
+      logo: UtilusLogo,
+      start: "2024",
+      end: "Present",
+      description:
+        "Working on ProximaRed, managing the development of Next.js applications and supporting the backend team where needed.",
+    },
+    {
       company: "Info Support",
       link: "https://infosupport.com/",
       badges: ["Thesis internship"],
       title: "Software Engineer",
       logo: InfoSupportLogo,
       start: "2024",
-      end: "Present",
+      end: "2024",
       description:
         "Writing a thesis on the implementation of Mobile Augmented Reality to better the travel experience in public transport.",
     },
@@ -100,29 +112,29 @@ export const RESUME_DATA = {
       logo: EnzoSystemsLogo,
       start: "2022",
       end: "2023",
-      description: "Helped develop a web application for clients to manage their kiosks. Technologies: React, Node.js",
+      description:
+        "Helped develop a web application for clients to manage their kiosks. Technologies: React, Node.js",
     },
   ],
   skills: [
+    "JS/TS",
+    "React/Next.js",
+    "Node.js",
+    "Python",
     "Kotlin",
     "Android",
     "AR/VR",
     "Java",
     "Spring Boot",
-    "JavaScript",
-    "React/Next.js",
-    "Node.js",
     "Dart",
     "Flutter",
   ],
   projects: [
     {
       title: "Deck1 DispatchApp",
-      techStack: [
-        "Flutter",
-        "GraphQL",
-      ],
-      description: "A mobile app to help manage logistics surrounding offshore windfarms.",
+      techStack: ["Flutter", "GraphQL"],
+      description:
+        "A mobile app to help manage logistics surrounding offshore windfarms.",
       logo: Deck1Logo,
       link: {
         label: "GitHub repo",
@@ -131,27 +143,19 @@ export const RESUME_DATA = {
     },
     {
       title: "Digital Twin Provincie Utrecht",
-      techStack: [
-        "Unity",
-        "Holographic",
-        "GIS",
-        "Blender",
-      ],
+      techStack: ["Unity", "Holographic", "GIS", "Blender"],
       description: "A holographic digital twin for the Provincie Utrecht.",
       logo: ProvincieUtrechtLogo,
     },
     {
       title: "Multipurpose Discord bot",
-      techStack: [
-        "Typescript",
-        "MongoDB",
-      ],
+      techStack: ["Typescript", "MongoDB"],
       description: "A multipurpose Discord bot.",
       logo: null,
       link: {
         label: "GitHub repo",
         href: "https://github.com/Piratepie/gta-factions-bot",
-      }
+      },
     },
   ],
 } as const;
