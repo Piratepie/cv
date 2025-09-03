@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   summary:
     "Full stack software engineer with a passion for agile and the creative freedom it promotes. I'm a real teamplayer who's always out to improve the way we work and the products we build. Besides my passion for software engineering, I'm also socially engaged and always looking for ways to improve the world around me.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D4E03AQGl_ET0IfMEcw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714058272699?e=1729123200&v=beta&t=-xOYHoPr-ZxBbg-YKqxCjN3OG7cy7FLwufp4oH52ssQ",
+    "https://media.licdn.com/dms/image/v2/D4D03AQEwEcCyAfBt8w/profile-displayphoto-shrink_800_800/B4DZSyw9Q8GcAc-/0/1738165967128?e=1759968000&v=beta&t=nSJipgqhX-AVDoX1rOiQdyGW5jMdXbiN1WjNr__brgg",
   personalWebsiteUrl: "https://www.jasperdebie.dev/",
   contact: {
     // email: "",
@@ -44,7 +44,7 @@ export const RESUME_DATA = {
       school: "Universiteit van Amsterdam",
       degree: "Master's degree, Software Engineering",
       start: "2024",
-      end: "2026",
+      end: "2027",
     },
     {
       school: "HU University of Applied Sciences Utrecht",
@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       logo: UtilusLogo,
       start: "2024",
-      end: "Present",
+      end: "2025",
       description:
         "Working on ProximaRed, managing the development of Next.js applications and supporting the backend team where needed.",
     },
